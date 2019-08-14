@@ -24,3 +24,10 @@ EOF
 systemctl daemon-reload
 systemctl restart kubelet
 
+# docker pull gcr.azk8s.cn/k8s.gcr.io/kube-apiserver:v1.15.1
+# docker pull gcr.azk8s.cn/kube-apiserver:v1.15.1
+# docker pull gcr.azk8s.cn/google_containers/kube-apiserver:v1.15.1
+# docker pull gcr.azk8s.cn/google_containers/kube-controller-manager:v1.15.1
+# docker pull gcr.azk8s.cn/google_containers/kube-scheduler:v1.15.1
+# docker pull gcr.azk8s.cn/google_containers/kube-proxy:v1.15.1
+
