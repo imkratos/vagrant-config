@@ -6,7 +6,7 @@ mv /etc/apt/sources.list /etc/apt/sources.list.bak
 cp /vagrant/sources.list /etc/apt/
 
 sudo apt-get update -y
-
+sudo dpkg-reconfigure locales
 #disable ufw
 sudo ufw disable
 
@@ -42,6 +42,7 @@ sudo apt-get install -y mysql-server
 
 # mysql config
 # grant all privileges on *.* to 'root'@'%' identified by 'root' with grant option;
+# grant all privileges on *.* to 'zhishuo'@'%' identified by 'zhishuo' with grant option;
 # FLUSH PRIVILEGES;
 # bind = 127.0.0.1 desable
 
