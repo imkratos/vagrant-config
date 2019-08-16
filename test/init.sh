@@ -64,10 +64,10 @@ sudo apt-get install -y redis-server
 
 
 
-# echo "-----------------"
-# echo " Install JAVA8   "
-# echo "-----------------"
-# sudo apt-get install -y openjdk-8-jdk
+echo "-----------------"
+echo " Install JAVA8   "
+echo "-----------------"
+sudo apt-get install -y openjdk-8-jdk
 
 # echo "-----------------"
 # echo " Initialize Site "
