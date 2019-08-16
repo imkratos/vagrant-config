@@ -43,7 +43,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted unive
 # " >> /etc/apt/sources.list
 
 
-sudo apt-get update
+sudo apt-get update -y
 # sudo apt-get upgrade
 
 #install docker
