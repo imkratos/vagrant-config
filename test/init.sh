@@ -24,6 +24,8 @@ sudo tee /etc/docker/daemon.json <<-'EOF'
   "registry-mirrors": ["https://kj15yn93.mirror.aliyuncs.com"]
 }
 EOF
+
+sudo apt-get install docker-compose -y
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 
